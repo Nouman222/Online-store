@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: white;
+}
+header nav .tit{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(128, 107,220);
+    color: white;
+}
+header nav .tags{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+.tags :hover{
+    transform: scale(1.1,1.1);
+}
+.tags img{
+    width: 100px;
+    height: 100px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity:0.8;
+    padding: 20px;
+    background-color: rgb(211,211, 211);
+}
+.banner h2{
+    padding: 25px;
+    animation-iteration-count: infinite;
+}
+table{
+    width: 90%;
+    height: 250px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table thead th{
+    padding: 12px;
+    font-size: 20px; 
+}
+table thead{
+  background-color: rgb(128, 107,220);
+  
+}
+table tbody tr td{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+td[class]{
+    animation-iteration-count: infinite;
+}
+table tfoot td{
+    padding: 20px;
+    border: 1px solid;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div{
+    padding: 10px;
+    color: rgb(135,135, 135);
+}
+div h2{
+    padding: 10px; 
+}
+div ul li{
+    list-style: disc;
+    margin-left: 20px;
+}
+div p,ul{
+    font-size: 12px;
+}
+footer{
+    height: 80px;
+    padding-top: 35px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
