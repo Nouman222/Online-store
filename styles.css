@@ -91,4 +91,107 @@ footer{
     color: white;
     text-align: center;
 }
+/* ===========================
+     RESPONSIVE DESIGN
+   =========================== */
+
+/* Tablets (max-width: 992px) */
+@media (max-width: 992px) {
+
+    header nav .tags {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .tags img {
+        width: 80px;
+        height: 80px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+
+    header nav .tit h1 {
+        font-size: 20px;
+    }
+
+    header nav .tags {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .tags figure {
+        width: 30%;
+    }
+
+    .tags img {
+        width: 70px;
+        height: 70px;
+    }
+
+    table thead th {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    table tbody tr td {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    table tfoot td {
+        font-size: 16px;
+    }
+
+    article div p,
+    article div ul {
+        font-size: 11px;
+    }
+}
+
+/* Mobile Small (max-width: 480px) */
+@media (max-width: 480px) {
+
+    .tags figure {
+        width: 45%;
+    }
+
+    .tags img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .banner h2 {
+        font-size: 18px;
+    }
+
+    table {
+        font-size: 11px;
+    }
+
+    table thead th {
+        font-size: 14px;
+    }
+
+    article div h1,
+    article div h2 {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 12px;
+        padding-top: 25px;
+    }
+}
 
